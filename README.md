@@ -4,6 +4,8 @@ This is a template.
 - The primary functions for an agent can be fully custom code, or it could extend an Agent Framework like LangChain, LlamaIndex, Crew AI, Aisera, Bardeen, Decagon, Flowwise AI, Kore AI, Lindy, Orby, Sierra, Voiceflow, SDSA, Amazon Bedrock, Azure AI Agent service, Google Agentspace, watsonx Orchestrate, embra, insta Lily, Zeta Labs, Pathlit, invicta AI, Composio, Relay App, Vijil, Julep, Sola, Steamship, Quickchat AI, Fetch AI, Dify, Deep Opinion, Capably, OpenAI Agents, Autogen, AI Agents, Alan AI, Gumloop, Adept, Continual AI, Cykel, AutoGPT, Lyzr, Sema4, Kentauros, Azara, Nexus, Langdock, Unfetch, Respell, Distyl, Beam, Stack AI, Synthflow, Taskade, Druid, Dust, Haystack, Relevance AI, Kognitos, Smyth OS, Brevian, Manaflow, Haptik, Auto GPT, Letta, SuperAGI, emergence, Arcade, Toolhouse, Wildcard, Naptha, Scaled Cognition, Semantic Kernel,  etc.
 - If you want to use one of these or a different one, just specify it in the "My Agent Uses an Agent Framework" section.
 
+                         DELETE EVERYTHING ABOVE THIS LINE
+
 ---
 # Base Agent Extender 
 
@@ -41,10 +43,22 @@ Here is the template to create a new agent. Edit it as you see fit.
 
 ## My Agent Uses an Agent Framework
 - (this is optional, if you want to use one, specify which one, and paste in a public URL to its docs and/or github repo.)
+
+## My Agent Uses Technologies
+- (this is optional, if you have specific technologies you want it to use, list them here)
+```
+- For web scraping, please use SerpAPI 
+- For LLMs text processing, please use Google Flash
+- For document processing, please use PDF Generation 
+```
  
 ## Agent Capabilities 
+This is the full description of the Agent that I am building. I've specified all of the details for you to build it. 
+
 (This is an example. Remove this, and add your own here)
+```
 - People give you a topic to research and you use the web to find articles on the subject.
 - After accumulating data, you append it together and send it to an LLM asking it to turn the raw data into a report for you.
 - Then, you take the report and host it on your local web server, and give the report a friendly name.
 - Finally, you return the URL of the hosted report back to the requestor. 
+```
